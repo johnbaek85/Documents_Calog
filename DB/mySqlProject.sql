@@ -1,4 +1,5 @@
 -- root에서 설정, database명: project, userid: calog, password:if 
+-- 게시판 table 추후 적용필요
 create database project;
 create user 'calog'@'localhost' identified by 'if';
 grant all privileges on project.* to 'calog'@'localhost';
